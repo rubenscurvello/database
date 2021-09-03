@@ -5,8 +5,7 @@ import {
   Repository,
 } from "types";
 
-import { Connector as Informix } from "database-informix";
-
+import Informix from "database-informix";
 class Database {
   private config: ConfigDatabaseInterface;
   private connector: Connector;

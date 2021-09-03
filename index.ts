@@ -1,2 +1,2 @@
-import FTP from "./src/database";
-export default FTP;
+import Database from "./src/database";
+export default Database;
