@@ -8,9 +8,7 @@
     "build": "tsc --declaration"
   },
   "dependencies": {
-    "common": "https://github.com/rubenscurvello/common.git",
     "database-informix": "https://github.com/rubenscurvello/database-informix.git",
-    "ssh2-sftp-client": "^7.0.1",
     "types": "https://github.com/rubenscurvello/types.git"
   },
   "devDependencies": {
