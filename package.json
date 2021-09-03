@@ -1,0 +1,21 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "APACHE",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "dependencies": {
+    "common": "https://github.com/rubenscurvello/common.git",
+    "database-informix": "https://github.com/rubenscurvello/database-informix.git",
+    "ssh2-sftp-client": "^7.0.1",
+    "types": "https://github.com/rubenscurvello/types.git"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@types/shelljs": "^0.8.9",
+    "@types/ssh2-sftp-client": "^5.3.2"
+  }
+}
